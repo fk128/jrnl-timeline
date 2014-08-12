@@ -55,8 +55,7 @@ function load_content() {
 .done(function(){
 	var options = {
 		valueNames: [ 'entrytitle', 'entrybody', 'entry-date' ]};
-		var userList = new List('main', options);
-		console.log(userList)
+		var list = new List('main', options);
 	});
 
 }

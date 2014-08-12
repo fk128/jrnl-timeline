@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     options: {
       mainConfigFile: "js/config.js",
       name: "main", // assumes a production build using almond
-      out: "js/build/optimized.js"
+      out: "js/build/jrnl-timeline.min.js"
     }
   }
 }
