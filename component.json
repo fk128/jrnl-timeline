@@ -1,0 +1,12 @@
+{
+    "name":  "jrnl-timeline",
+    "version": "0.1",
+    "dependencies": {
+        "jQuery": "latest",
+        "requirejs": "latest",
+        "modernizr": "latest",
+        "listjs": "latest",
+        "requirejs-domready": "latest"
+    },
+    "private": "true"
+}
