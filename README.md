@@ -10,6 +10,7 @@ to get a compiled version, clone the gh-pages branch
 git clone -b gh-pages https://github.com/fk128/jrnl-timeline.git
 ```
 
+and place the files on your server.
 
 ## Obtaining JSON file from jrnl
 
@@ -37,6 +38,15 @@ Also in `data` directory, you will find a file called `info.json` with the follo
 ```
 
 change `title` to the desired name of your journal and `content_path` to the name of `.json` exported from jrnl.
+
+
+## Developers
+
+1. Clone the repository `git clone https://github.com/fk128/jrnl-timeline.git`.
+2. `cd` into the directory.
+3. Install node modules by running `npm install`.
+4. Install packages by running `bower install`.
+5. Run `grunt` to generate the optimised version in directory `js/build/`.
 
 ## Acknowledgement
 
