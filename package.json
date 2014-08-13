@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-requirejs": "^0.4.4"
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-filerev": "^0.2.1",
+    "almond": "^0.2.9",
+    "grunt-html-build": "^0.3.2"
   }
 }

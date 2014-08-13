@@ -39,7 +39,11 @@ function load_content() {
 		var title = entry.title.replace(/\@(\w+)/g,'<span class="'+tag_class+'">@$1</span>');
 		var  dom_title = $('<h2 class="entrytitle">'+ title +'</h2>');
 
-		var icon = $('	<div class="cd-timeline-img cd-entry"></div>');
+		var icon;
+		if (entry.starred == true)
+			icon = $('<div class="cd-timeline-img cd-entry"><span class="glyphicon glyphicon-star"></span></div>');
+		else
+			icon = $('<div class="cd-timeline-img cd-entry"></div>');
 
 		content.append(dom_title);
 		content.append(body);

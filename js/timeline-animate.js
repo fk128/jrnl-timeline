@@ -1,9 +1,5 @@
 define(['jquery'], function ($) {
 
-    //This function is called once the DOM is ready.
-    //It will be safe to query the DOM and manipulate
-    //DOM nodes in this function.
-
 function animate(elem){
 	var $timeline_block = elem;
 	

@@ -46,7 +46,7 @@ change `title` to the desired name of your journal and `content_path` to the nam
 2. `cd` into the directory.
 3. Install node modules by running `npm install`.
 4. Install packages by running `bower install`.
-5. Run `grunt` to generate the optimised version in directory `js/build/`.
+5. Run `grunt` to generate the optimised version. The output will be in the `dist` directory.
 
 ## Acknowledgement
 
